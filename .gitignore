@@ -1,0 +1,23 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*~
+
+# Build artifacts
+node_modules/
+artifacts/
+cache/
+typechain/
+out/
+
+# Env / secrets
+.env
+.env.local
+*.private.key
+
+# Verification bundles (private — only used by deploy scripts)
+manual-verify/
